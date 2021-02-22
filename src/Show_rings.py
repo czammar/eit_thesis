@@ -39,7 +39,7 @@ def triangles_level(level):
     sup_trian = []
     inf_trian = []
     level = level*nb
-    for i in range(aux_nb):
+    for i in range(int(aux_nb)):
         b = [2*i+2+level, 2*i+1+level, 2*i+level]
         if i == aux_nb-1:
             b[0] = level
